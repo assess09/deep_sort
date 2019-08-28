@@ -139,3 +139,8 @@ If you find this repo useful in your research, please consider citing the follow
       organization={IEEE},
       doi={10.1109/WACV.2018.00087}
     }
+
+# Memo
+* Source download links
+    * https://motchallenge.net/data/MOT16.zip
+    * https://drive.google.com/drive/folders/18fKzfqnqhqW3s9zwsCbnVJ5XF2JFeqMp
