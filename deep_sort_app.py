@@ -255,9 +255,16 @@ def parse_args():
     return parser.parse_args()
 
 
+# if __name__ == "__main__":
+#     args = parse_args()
+#     run(
+#         args.sequence_dir, args.detection_file, args.output_file,
+#         args.min_confidence, args.nms_max_overlap, args.min_detection_height,
+#         args.max_cosine_distance, args.nn_budget, args.display)
+
 if __name__ == "__main__":
-    args = parse_args()
+    # args = parse_args()
     run(
-        args.sequence_dir, args.detection_file, args.output_file,
-        args.min_confidence, args.nms_max_overlap, args.min_detection_height,
-        args.max_cosine_distance, args.nn_budget, args.display)
+        "./MOT16/test/MOT16-06", "./resources/detections/MOT16_POI_test/MOT16-06.npy", "result.txt",
+        0.3, 1.0, 0,
+        0.2, 100, True)
