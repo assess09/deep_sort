@@ -144,3 +144,4 @@ If you find this repo useful in your research, please consider citing the follow
 * Source download links
     * https://motchallenge.net/data/MOT16.zip
     * https://drive.google.com/drive/folders/18fKzfqnqhqW3s9zwsCbnVJ5XF2JFeqMp
+    * The folders downloaded from the links have to be placed in the directory
