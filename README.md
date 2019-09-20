@@ -141,8 +141,9 @@ If you find this repo useful in your research, please consider citing the follow
     }
 
 # Note
+* `cv2` package in the script is actually `opencv-python` package. Find `opencv-python` instead of `cv2`
 * Source download links
     * https://motchallenge.net/data/MOT16.zip
     * https://drive.google.com/drive/folders/18fKzfqnqhqW3s9zwsCbnVJ5XF2JFeqMp
     * The folders downloaded from the links have to be placed in the directory
-        - It is recommended to put the resources in your local PC in advance because the files are huge to download
+        * It is recommended to put the resources in your local PC in advance because the files are huge to download
